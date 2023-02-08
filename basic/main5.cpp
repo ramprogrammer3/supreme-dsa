@@ -1,21 +1,22 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
-    // variable scoping 
-    int a; // declare a variable 
+    // variable scoping
+    int a; // declare a variable
 
-    int b = 5; //initialiazation
+    int b = 5; // initialiazation
 
     b = 10; // b update
 
     // int b = 20; // redefine
 
-    if(true){
+    if (true)
+    {
         int b = 10;
     }
-
 
     cout << a << endl;
 
