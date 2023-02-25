@@ -21,6 +21,6 @@ int main()
     char name[100];
     cin.getline(name, 100);
     cout << "length is " << getLength(name) << endl;
-    cout << "Lenght is " << strlen(name) << endl;
+    // cout << "Lenght is " << strlen(name) << endl;
     return 0;
 }
